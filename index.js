@@ -1,6 +1,6 @@
 const nodemon = reqiuire("nodemon");
 const express = require('express');
-const body-parser =require('body-parser');
+const body-parser = require('body-parser');
 const app = express();
 app.use(body-parser.urlencoded({extende: true}));
 
